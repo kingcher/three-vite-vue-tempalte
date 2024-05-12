@@ -3,7 +3,7 @@
  * @Author: 贪玩的大橙子
  * @Date: 2024-04-18 14:42:06
  * @LastEditors: 贪玩的大橙子
- * @LastEditTime: 2024-05-12 10:43:57
+ * @LastEditTime: 2024-05-12 12:21:32
  * @FilePath: TWorld.ts
  *
  * Copyright (c) 2024 by 贪玩的大橙子, All Rights Reserved.
@@ -50,6 +50,9 @@ const defaultTWorldConfig: TWorldConfig = {
     divisions: 400,
     color1: 0x444444,
     color2: 0x888888
+  },
+  axesHelperConfig: {
+    size: 100
   }
 };
 

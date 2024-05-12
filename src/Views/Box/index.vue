@@ -4,7 +4,7 @@
  * @Author: 贪玩的大橙子
  * @Date: 2024-04-18 14:42:06
  * @LastEditors: 贪玩的大橙子
- * @LastEditTime: 2024-05-12 09:55:24
+ * @LastEditTime: 2024-05-12 12:22:16
  * @FilePath: index.vue
  * 
  * Copyright (c) 2024 by 贪玩的大橙子, All Rights Reserved. 
@@ -27,6 +27,7 @@ onMounted(() => {
   });
   const box = Box();
   world.addObject(box);
+  world.animate();
 });
 </script>
 
@@ -44,4 +45,3 @@ onMounted(() => {
   display: block;
 }
 </style>
-@/TEngine/TWorld
