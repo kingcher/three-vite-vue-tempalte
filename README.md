@@ -65,10 +65,17 @@ const defaultTWorldConfig: TWorldConfig = {
 所有的 threejs 相关的环境设置代码都在 TWorld 目录中。
 
 Tworld.ts 所有的 threejs 通过 TWorld 进行管理。
+
 TCamera.ts: 相机
+
 TRenderLines.ts: 渲染器以及 Composer 合成
+
 TLight.ts： 灯光
+
 TOrbitController.ts： 键鼠控制
+
 TRayCaster： 射线，用来检测鼠标事件
+
 TGrid: grid 辅助线
+
 TAxesHelper： 坐标轴辅助线
